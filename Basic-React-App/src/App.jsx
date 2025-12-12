@@ -1,5 +1,6 @@
 import "./App.css"
 import Title from "./Title.jsx"
+import ProductTab from "./ProductTab.jsx";
 
 function Description(){
   return <h2>I'm Description</h2>;
@@ -7,13 +8,12 @@ function Description(){
 
 function App() {
   return( 
-  <div>
-    <h1>Hello</h1>
+  <>
     <Title />
-    <Description />
-    </div>
+    <ProductTab/>
+    <Description/>
+  </>
   );
 
 }
-
-export default App
+export default App;
