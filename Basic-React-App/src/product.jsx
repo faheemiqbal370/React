@@ -4,9 +4,9 @@ function Product({title,price,features,features2}){
         <div className="product">
             <h3>{title}</h3>
             <h5>Price : {price}</h5>
-            <p>{features}</p>
-            <p>{features2.b}</p>
-            <p>{features2.c}</p>
+            <p>{features.map((features=><li>{features}</li>))}</p>
+            {/* <p>{features2.b}</p> */}
+            {/* <p>{features2.c}</p> */}
         </div>
     );
 }

@@ -11,7 +11,7 @@ function App() {
   <>
     <Title />
     <ProductTab/>
-    <Description/>
+    {/* <Description/> */}
   </>
   );
 
