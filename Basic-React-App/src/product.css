@@ -2,6 +2,8 @@
      border: 1px solid black;
      border-radius: 20px;
      margin-bottom: 15px;
-     padding: 0px 5px 0px 5px ; /*top left bottom right*/
-
+     /* padding: 0px 5px 0px 5px ; top left bottom right */
+     margin-left: 15px;
+     width: 200px;
+     height: 150px;
 }
