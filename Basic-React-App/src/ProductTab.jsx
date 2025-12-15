@@ -1,5 +1,6 @@
-import Product from "./product";
-//Rendering Arrays and Last ones
+// Rendering Arrays and Last ones
+// import Product from "./product";
+
 // function ProductTab(){
 //     // let options = [<li>wow</li> , <li>cool</li>];
 //     let options = ["wow" , "cool"];
@@ -12,4 +13,17 @@ import Product from "./product";
 //         </>
 //     );
 // }
+// export default ProductTab;
+
+//CONDITIONALS
+import Product from "./product";
+
+function ProductTab(){
+    return(
+    <>
+    <Product title="Phone" price={30000}/>
+    <Product title="Laptop" price={40000}/>
+    </>
+    );
+} 
 export default ProductTab;
