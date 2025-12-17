@@ -18,4 +18,5 @@ function AprodTab(){
       </div>
       );
 }
+
 export default AprodTab;
